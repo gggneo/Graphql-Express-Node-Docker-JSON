@@ -5,4 +5,4 @@ COPY package.json /usr/src/graphql-express/
 RUN npm install
 COPY . /usr/src/graphql-express
 EXPOSE 3500
-CMD npm start
+CMD npm run dev:api
