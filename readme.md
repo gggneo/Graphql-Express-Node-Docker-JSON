@@ -7,6 +7,24 @@ boilerplate to kick start their projects.
 
 I integrated with ```Mocha``` ```chai``` to test our code. 
 
+## How to start this application?
+
+If you have Nodejs installed machine then follow below steps?
+
+```sh
+ npm install
+
+ npm run dev:api
+ ```
+
+## We ship our code through Docker.
+
+Just enter below command to spin container
+
+```sh
+  docker-compise up
+ ```
+
 ### Create a Owner
 ```sh
 mutation CreateOwner($input: CreateOwnerInput!){
