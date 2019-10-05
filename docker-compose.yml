@@ -1,0 +1,8 @@
+version: "2"
+services:
+  app:
+    container_name: graphqlapp
+    restart: always
+    build: .
+    ports:
+      - "3500:3500"
