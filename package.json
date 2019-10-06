@@ -1,10 +1,10 @@
 {
-  "name": "Graphql-Express-Swagger",
+  "name": "graphql_crud_nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Writing a GraphQL CRUD application with NodeJS, Express without database. Easily Deployable with docker.",
   "main": "index.js",
   "scripts": {
-    "dev:api": "nodemon --exec 'babel-node server.js'",
+    "start": "nodemon --exec 'babel-node server.js'",
     "test": "mocha test/*.spec.js"
   },
   "keywords": [],
