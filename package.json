@@ -7,6 +7,10 @@
     "start": "nodemon --exec 'babel-node server.js'",
     "test": "mocha test/*.spec.js"
   },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.1.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
