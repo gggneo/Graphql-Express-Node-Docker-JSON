@@ -1,7 +1,7 @@
 const chai = require('chai');
 
 const expect = chai.expect;
-const url = `http://localhost:3500`;
+const url = `http://localhost:3000`;
 const request = require('supertest')(url);
 
 describe('Owners', () => {

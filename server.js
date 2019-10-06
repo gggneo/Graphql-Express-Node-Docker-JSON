@@ -5,7 +5,7 @@ import { resolvers } from './graphql/resolvers'
 const winston = require('./config/winston');
 import morgan from 'morgan';
 
-const PORT = process.env.PORT || 3500
+const PORT = process.env.PORT || 3000
 const app = express()
 
 app.use(morgan('combined', { stream: winston.stream }));
