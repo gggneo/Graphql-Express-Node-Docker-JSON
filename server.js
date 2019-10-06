@@ -2,9 +2,13 @@ import express from 'express'
 import { ApolloServer } from 'apollo-server-express'
 import { typeDefs } from './graphql/typedefs'
 import { resolvers } from './graphql/resolvers'
+const winston = require('./config/winston');
+import morgan from 'morgan';
 
 const PORT = process.env.PORT || 3500
 const app = express()
+
+app.use(morgan('combined', { stream: winston.stream }));
 
 const server = new ApolloServer({
   typeDefs,

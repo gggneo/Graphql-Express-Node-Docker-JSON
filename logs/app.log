@@ -1,0 +1,24 @@
+2019-10-06T07:58:22.013Z - undefined:[error]: uncaughtException: (0 , _morgan.morgan) is not a function
+TypeError: (0 , _morgan.morgan) is not a function
+    at Object.<anonymous> (/Users/vydyas/Desktop/Nodejs/Malaysia/Graphql-Express-Node-Docker-JSON/server.js:11:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at loader (/Users/vydyas/Desktop/Nodejs/Malaysia/Graphql-Express-Node-Docker-JSON/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (/Users/vydyas/Desktop/Nodejs/Malaysia/Graphql-Express-Node-Docker-JSON/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at Object.<anonymous> (/Users/vydyas/Desktop/Nodejs/Malaysia/Graphql-Express-Node-Docker-JSON/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+2019-10-06T07:59:01.732Z - undefined:[info]: ::1 - - [06/Oct/2019:07:59:01 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+
+2019-10-06T07:59:03.015Z - undefined:[info]: ::1 - - [06/Oct/2019:07:59:03 +0000] "POST /graphql HTTP/1.1" 200 23914 "http://localhost:3500/graphql" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+
+2019-10-06T07:59:03.091Z - undefined:[info]: ::1 - - [06/Oct/2019:07:59:03 +0000] "POST /graphql HTTP/1.1" 200 23914 "http://localhost:3500/graphql" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+
+2019-10-06T07:59:04.451Z - undefined:[info]: ::1 - - [06/Oct/2019:07:59:04 +0000] "POST /graphql HTTP/1.1" 200 23914 "http://localhost:3500/graphql" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+
+2019-10-06T07:59:05.409Z - undefined:[info]: ::1 - - [06/Oct/2019:07:59:05 +0000] "POST /graphql HTTP/1.1" 200 23 "http://localhost:3500/graphql" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+
+2019-10-06T07:59:24.607Z - undefined:[info]: ::1 - - [06/Oct/2019:07:59:24 +0000] "POST /graphql HTTP/1.1" 200 23914 "http://localhost:3500/graphql" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
+
