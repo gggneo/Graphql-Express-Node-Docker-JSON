@@ -60,6 +60,13 @@ class Pets {
     static find(id) {
         return helper.mustBeInArray(petsData, id);
     }
+
+    static truncatePet() {
+        return new Promise((resolve, reject) => {
+            helper.writeJSONFile(filename, [])
+            resolve({ message: `Truncated successfully` })
+        })
+    }
 }
 
 module.exports = {
@@ -67,5 +74,6 @@ module.exports = {
     insertPet: Pets.insertPet,
     find : Pets.find,
     updatePet: Pets.updatePet,
-    deletePet: Pets.deletePet
+    deletePet: Pets.deletePet,
+    truncatePet: Pets.truncatePet
 }

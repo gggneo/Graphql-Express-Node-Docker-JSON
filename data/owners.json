@@ -1,16 +1,1 @@
-[
-    {
-        "id": 1,
-        "createdAt": "Thu Oct 03 2019 23:54:37 GMT+0530 (India Standard Time)",
-        "updatedAt": "Thu Oct 03 2019 23:57:23 GMT+0530 (India Standard Time)",
-        "name": "Siddhu",
-        "address": "Hyderabad",
-        "email": "vydyas@gmail.com",
-        "mobile": "+91-9581594325",
-        "pets": [
-            {
-                "id": 1
-            }
-        ]
-    }
-]
+[]

@@ -58,11 +58,26 @@ class Owners {
                 .catch(err => reject(err))
         })
     }
+
+    static getOwnerbyId(id) {
+        return new Promise((resolve, reject) => {
+            resolve(ownersData.find(e => e.id === id))
+        })
+    }
+
+    static truncateOwner() {
+        return new Promise((resolve, reject) => {
+            helper.writeJSONFile(filename, [])
+            resolve({ message: `Truncated successfully` })
+        })
+    }
 }
 
 module.exports = {
     GetOwners: Owners.getOwners,
     CreateOwner: Owners.createOwner,
     UpdateOwner: Owners.updateOwner,
-    DeleteOwner: Owners.deleteOwner
+    DeleteOwner: Owners.deleteOwner,
+    getOwnerbyId: Owners.getOwnerbyId,
+    truncateOwner: Owners.truncateOwner
 }

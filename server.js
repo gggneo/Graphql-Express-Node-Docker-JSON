@@ -1,6 +1,7 @@
 import express from 'express'
 import { ApolloServer } from 'apollo-server-express'
-import { resolvers, typeDefs } from './schema'
+import { typeDefs } from './graphql/typedefs'
+import { resolvers } from './graphql/resolvers'
 
 const PORT = process.env.PORT || 3500
 const app = express()
