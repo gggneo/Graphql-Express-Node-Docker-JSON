@@ -22,7 +22,7 @@ If you have Nodejs installed machine then follow below steps?
 Just enter below command to spin container
 
 ```sh
-  docker-compise up
+  docker-compose up
  ```
 
 ### Create a Owner
